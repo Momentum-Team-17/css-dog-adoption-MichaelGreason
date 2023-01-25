@@ -15,7 +15,7 @@ header,
 footer {
     font-family: open sans, oswald;
     max-width: 1200px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 ul {
@@ -71,3 +71,32 @@ h3 {
 .indent {
     padding-left: 3%
 }
+
+h1>span {
+    color: white;
+    display: flex;
+    font-size: 45px;
+    flex-direction: column;
+    align-items: center;
+    line-height: 300px;
+    /* padding-top: 40%; */
+}
+
+footer {
+    display: flex;
+}
+
+.footer-block {
+    height: 300px;
+    width: 400px;
+    background-color: #A6A9F0;
+    flex: display;
+}
+
+.tinted-image {
+    height: 300px;
+    width: 400px;
+    background:
+        linear-gradient(rgba(255, 0, 0, .45), (rgba(255, 0, 0, 0.45)),
+            url(/Users/michaelgreason/Documents/Momentum/Homework/css-dog-adoption-MichaelGreason/starter_files/images/donate.jpg);
+    }
