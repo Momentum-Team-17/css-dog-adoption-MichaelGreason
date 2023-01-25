@@ -73,6 +73,7 @@ h3 {
 }
 
 h1>span {
+    /* position: absolute; */
     color: white;
     display: flex;
     font-size: 45px;
@@ -84,19 +85,51 @@ h1>span {
 
 footer {
     display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    margin: 0 auto;
 }
 
 .footer-block {
+    /* position: relative; */
     height: 300px;
     width: 400px;
     background-color: #A6A9F0;
     flex: display;
+    margin: 0 auto;
+
 }
 
 .tinted-image {
     height: 300px;
     width: 400px;
+    opacity: .3;
+}
+
+#f1 {
     background:
-        linear-gradient(rgba(255, 0, 0, .45), (rgba(255, 0, 0, 0.45)),
-            url(/Users/michaelgreason/Documents/Momentum/Homework/css-dog-adoption-MichaelGreason/starter_files/images/donate.jpg);
-    }
+        linear-gradient(rgba(166, 169, 240, 0.9),
+            rgba(166, 169, 240, 0.8)),
+        url(starter_files/images/donate.jpg);
+    background-size: cover;
+}
+
+#f2 {
+    background:
+        /* top, transparent red, faked with gradient */
+        linear-gradient(rgba(166, 169, 240, 0.8),
+            rgba(166, 169, 240, 0.8)),
+        /* bottom, image */
+        url(starter_files/images/volunteer.jpg);
+    background-size: cover;
+}
+
+#f3 {
+    background:
+        /* top, transparent red, faked with gradient */
+        linear-gradient(rgba(166, 169, 240, 0.8),
+            rgba(166, 169, 240, 0.8)),
+        /* bottom, image */
+        url(starter_files/images/location.png);
+    background-size: cover;
+}
