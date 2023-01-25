@@ -6,15 +6,68 @@ header {
     display: flex;
     justify-content: flex-start;
     padding-top: 10px;
+    padding-left: 3%;
+    font-size: large;
 }
 
 body,
 header,
 footer {
     font-family: open sans, oswald;
+    max-width: 1200px;
+    margin: 0 auto
 }
 
 ul {
+    margin-left: -45px;
     display: flex;
-    justify-content: flex-start;
+    flex-flow: wrap;
+}
+
+li {
+    border-radius: 25px;
+    background: #89DEEF;
+    margin-left: 1px;
+    padding: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: small;
+}
+
+img {
+    width: 375px;
+}
+
+span {
+    margin: 3px;
+
+
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+article {
+    width: 375px;
+    /* border: 1px solid black; */
+    display: flex;
+    display: inline-block;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h3 {
+    margin-left: 2px;
+    margin-top: -2px;
+    margin-bottom: -15px;
+    align-items: flex-start;
+}
+
+.indent {
+    padding-left: 3%
 }
