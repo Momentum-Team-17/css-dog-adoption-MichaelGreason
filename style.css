@@ -79,15 +79,15 @@ h1>span {
     font-size: 45px;
     flex-direction: column;
     align-items: center;
-    line-height: 300px;
+    line-height: 275px;
     /* padding-top: 40%; */
 }
 
 footer {
     display: flex;
     flex-direction: row;
-    flex: 1 1 auto;
-    margin: 0 auto;
+    /* flex: 1 1 auto;
+    margin: 0 auto; */
 }
 
 .footer-block {
@@ -96,14 +96,30 @@ footer {
     width: 400px;
     background-color: #A6A9F0;
     flex: display;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
 }
 
-.tinted-image {
-    height: 300px;
-    width: 400px;
-    opacity: .3;
+#f1:hover {
+    background:
+        linear-gradient(rgba(20, 220, 73, 0.8),
+            rgba(20, 220, 73, .8)),
+        url(starter_files/images/donate.jpg);
+    background-size: cover;
+}
+
+#f2:hover {
+    background: linear-gradient(rgba(252, 255, 103, 0.833),
+            rgba(252, 255, 103, .8)),
+        url(starter_files/images/volunteer.jpg);
+    background-size: cover;
+}
+
+#f3:hover {
+    background: linear-gradient(rgba(85, 213, 255, 0.8),
+            rgba(85, 213, 255, .8)),
+        url(starter_files/images/location.png);
+    background-size: cover;
 }
 
 #f1 {
@@ -116,20 +132,16 @@ footer {
 
 #f2 {
     background:
-        /* top, transparent red, faked with gradient */
         linear-gradient(rgba(166, 169, 240, 0.8),
             rgba(166, 169, 240, 0.8)),
-        /* bottom, image */
         url(starter_files/images/volunteer.jpg);
     background-size: cover;
 }
 
 #f3 {
     background:
-        /* top, transparent red, faked with gradient */
         linear-gradient(rgba(166, 169, 240, 0.8),
             rgba(166, 169, 240, 0.8)),
-        /* bottom, image */
         url(starter_files/images/location.png);
     background-size: cover;
 }
